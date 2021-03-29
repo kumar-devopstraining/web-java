@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git branch: 'main' url: 'https://github.com/kumar-devopstraining/web-java'
+     git branch:'main',url:'https://github.com/kumar-devopstraining/web-java'
    }
    stage('Build'){
       // declaring maven home path

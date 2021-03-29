@@ -16,7 +16,7 @@ node{
     //}
    stage('deploy to QA'){
       sshagent(['tomcat']) {
-       sh "scp -o StrictHostKeyChecking=no target/chatting.war tomcat@http://18.222.144.33:/opt/tomcat/tomcat7/webapps/"
+       sh "scp -o StrictHostKeyChecking=no target/chatting.war tomcat@http:/172.31.43.14:/opt/tomcat/tomcat7/webapps/"
 }
    }
 }

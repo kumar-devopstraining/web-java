@@ -15,8 +15,7 @@ node{
         }
     }
    stage('nexus upload') {
-   nexusArtifactUploader
-      artifacts: [
+   nexusArtifactUploader artifacts: [
          [
             artifactId: 'chatting', 
            classifier: '', 
@@ -32,10 +31,11 @@ node{
          repository: 'http://18.207.252.91:8081/repository/maven-releases/', 
          version: '1.0.0'
    }
+}
    
    //stage('deploy to QA'){
     //  sshagent(['tomcat']) {
       // sh 'scp -o StrictHostKeyChecking=no target/chatting.war tomcat@172.31.43.14:/opt/tomcat/tomcat7/webapps/'
 //}
    //}
-}
+

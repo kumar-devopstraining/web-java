@@ -29,7 +29,7 @@ node{
          nexusVersion: 'nexus3',
          protocol: 'http', 
          repository: 'maven-snapshots', 
-         version: ''
+         version: '1.0-snapshot'
    } 
 
    

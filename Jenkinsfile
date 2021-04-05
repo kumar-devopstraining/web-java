@@ -16,15 +16,17 @@ node{
     }
    stage('nexus upload') {
    nexusArtifactUploader
-      artifacts: 
-         [[artifactId: 'chatting', 
+      artifacts: [
+         [
+            artifactId: 'chatting', 
            classifier: '', 
            file: 'target/*.war', 
            type: 'war'
-          ]],
+          ]
+       ],
          credentialsId: 'nexus-login',
          groupId: 'whatsapp',
-         nexusUrl: '172.31.77.152',
+         nexusUrl: '172.31.77.152:8081',
          nexusVersion: 'nexus2',
          protocol: 'http', 
          repository: 'http://18.207.252.91:8081/repository/maven-releases/', 

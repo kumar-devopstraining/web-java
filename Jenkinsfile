@@ -28,8 +28,8 @@ node{
          nexusUrl: '3.210.184.10:8081',
          nexusVersion: 'nexus3',
          protocol: 'http', 
-         repository: 'maven-releases', 
-         version: '1.0.0'
+         repository: 'maven-snapshots', 
+         version: '1.0-snapshot'
    } 
 
    

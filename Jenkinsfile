@@ -25,7 +25,7 @@ node{
        ],
          credentialsId: 'nexus-login',
          groupId: 'whatsapp',
-         nexusUrl: 'http://3.210.184.10:8081',
+         nexusUrl: '3.210.184.10:8081',
          nexusVersion: 'nexus3',
          protocol: 'http', 
          repository: 'maven-releases', 

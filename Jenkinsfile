@@ -14,7 +14,7 @@ node{
          // sh "${mvnHome}/bin/mvn sonar:sonar"
         //}
     //}
-  /* stage('nexus upload') {
+  stage('nexus upload') {
    nexusArtifactUploader artifacts: [
          [
             artifactId: 'chatting', 
@@ -25,12 +25,12 @@ node{
        ],
          credentialsId: 'nexus-login',
          groupId: 'whatsapp',
-         nexusUrl: '18.207.252.91:8081',
-         nexusVersion: 'nexus2',
+         nexusUrl: 'http://3.210.184.10:8081/',
+         nexusVersion: 'nexus3',
          protocol: 'http', 
-         repository: 'http://18.207.252.91:8081/repository/maven-releases/', 
+         repository: 'maven-releases', 
          version: '1.0.0'
-   } */
+   } 
 
    
    stage('deploy to QA'){

@@ -20,7 +20,8 @@ node{
          [[artifactId: 'chatting', 
            classifier: '', 
            file: 'target/*.war', 
-           type: 'war']],
+           type: 'war'
+          ]],
          credentialsId: 'nexus-login',
          groupId: 'whatsapp',
          nexusUrl: '172.31.77.152',

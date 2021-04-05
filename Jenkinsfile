@@ -19,7 +19,7 @@ node{
          [
             artifactId: 'chatting', 
            classifier: '', 
-           file: 'target/chatting.war', 
+           file: 'target/chatting-1.0-snapshot.war', 
            type: 'war'
           ]
        ],

@@ -38,4 +38,5 @@ node{
        sh 'scp -o StrictHostKeyChecking=no target/chatting.war tomcat@172.31.79.5:/opt/tomcat/apache-tomcat/webapps/'
 }
    }
+}
 

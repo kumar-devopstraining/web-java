@@ -6,7 +6,7 @@
 
   <groupId>whatsapp</groupId>
   <artifactId>chatting</artifactId>
-  <version>1.0-snapshot</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
   <name>chatting Maven Webapp</name>

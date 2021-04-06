@@ -19,17 +19,17 @@ node{
          [
             artifactId: 'chatting', 
            classifier: '', 
-           file: 'target/chatting-2.0.0-SNAPSHOT.war', 
+           file: 'target/chatting-2.0.0.war', 
            type: 'war'
           ]
        ],
          credentialsId: 'nexus-login',
          groupId: 'whatsapp',
-         nexusUrl: '3.210.184.10:8081',
+         nexusUrl: '3.226.251.23:8081',
          nexusVersion: 'nexus3',
          protocol: 'http', 
-         repository: 'mysnapshot', 
-         version: '2.0.0-SNAPSHOT'
+         repository: 'maven-releases', 
+         version: '2.0.0'
    } 
 
    

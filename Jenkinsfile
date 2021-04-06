@@ -19,7 +19,7 @@ node{
          [
             artifactId: 'chatting', 
            classifier: '', 
-           file: 'target/chatting-2.0.0.war', 
+           file: 'target/chatting-2.0.0-SNAPSHOT.war', 
            type: 'war'
           ]
        ],
@@ -28,8 +28,8 @@ node{
          nexusUrl: '3.226.251.23:8081',
          nexusVersion: 'nexus3',
          protocol: 'http', 
-         repository: 'maven-releases', 
-         version: '2.0.0'
+         repository: 'mysnapshot', 
+         version: '2.0.0-SNAPSHOT'
    } 
 
    
